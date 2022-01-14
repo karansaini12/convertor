@@ -1,0 +1,19 @@
+{
+  "name": "convertor",
+  "version": "1.0.0",
+  "description": "for only test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karansaini12/convertor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karansaini12/convertor/issues"
+  },
+  "homepage": "https://github.com/karansaini12/convertor#readme"
+}

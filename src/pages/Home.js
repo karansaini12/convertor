@@ -1,0 +1,441 @@
+import react from "react";
+
+class Home extends react.Component {
+    render() {
+        return (
+        <div>
+            <header class="header-area">
+        <div class="navgition navgition-transparent">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="#">
+                                <img src="assets/images/logo.svg" alt="Logo"/>
+                            </a>
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarOne" aria-controls="navbarOne" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarOne">
+                                <ul class="navbar-nav m-auto">
+                                    <li class="nav-item active">
+                                        <a class="page-scroll" href="#home">HOME</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#service">SERVICES</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#pricing">PRICING</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#contact">CONTACT</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="navbar-social d-none d-sm-flex align-items-center">
+                                <span>FOLLOW US</span>
+                                <ul>
+                                    <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
+                                    <li><a href="#"><i class="lni-twitter-original"></i></a></li>
+                                    <li><a href="#"><i class="lni-instagram-original"></i></a></li>
+                                    <li><a href="#"><i class="lni-linkedin-original"></i></a></li>                                  
+                                </ul>
+                            </div>
+                        </nav> 
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        <div id="home" class="header-hero bg_cover" style="background-image: url(assets/images/header-bg.jpg)">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-8 col-lg-10">
+                        <div class="header-content text-center">
+                            <h3 class="header-title">Handcrafted Landing Page for Startups and SaaS Businesses</h3>
+                            <p class="text">A simple, customizable, and, beautiful SaaS business focused landing page to make your project closer to launch!</p>
+                            <ul class="header-btn">
+                                <li><a class="main-btn btn-one" href="#">GET IN TOUCH</a></li>
+                                <li><a class="main-btn btn-two video-popup" href="https://www.youtube.com/watch?v=r44RKWyfcFw">WATCH THE VIDEO <i class="lni-play"></i></a></li>
+                            </ul>
+                        </div> 
+                    </div>
+                </div> 
+            </div> 
+            <div class="header-shape">
+                <img src="assets/images/header-shape.svg" alt="shape"/>
+            </div>
+        </div> 
+    </header>
+
+    
+    <section id="service" class="services-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-title pb-10">
+                        <h4 class="title">Crafted For</h4>
+                        <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+                    </div> 
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="services-content mt-40 d-sm-flex">
+                                <div class="services-icon">
+                                    <i class="lni-bolt"></i>
+                                </div>
+                                <div class="services-content media-body">
+                                    <h4 class="services-title">Startup</h4>
+                                    <p class="text">Short description for the <br/>ones who look for something new.</p>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="col-md-6">
+                            <div class="services-content mt-40 d-sm-flex">
+                                <div class="services-icon">
+                                    <i class="lni-bar-chart"></i>
+                                </div>
+                                <div class="services-content media-body">
+                                    <h4 class="services-title">SaaS Business</h4>
+                                    <p class="text">Short description for the<br/> ones who look for something new.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="services-content mt-40 d-sm-flex">
+                                <div class="services-icon">
+                                    <i class="lni-brush"></i>
+                                </div>
+                                <div class="services-content media-body">
+                                    <h4 class="services-title">Agency</h4>
+                                    <p class="text">Short description for the <br/>ones who look for something new.</p>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="col-md-6">
+                            <div class="services-content mt-40 d-sm-flex">
+                                <div class="services-icon">
+                                    <i class="lni-bulb"></i>
+                                </div>
+                                <div class="services-content media-body">
+                                    <h4 class="services-title">App Landing</h4>
+                                    <p class="text">Short description for the <br/> ones who look for something new.</p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div> 
+                </div> 
+            </div> 
+        </div>
+        <div class="services-image d-lg-flex align-items-center">
+            <div class="image">
+                <img src="assets/images/services.png" alt="Services"/>
+            </div>
+        </div> 
+    </section>
+
+    
+    <section id="pricing" class="pricing-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-title text-center pb-10">
+                        <h4 class="title">Our Pricing</h4>
+                        <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+                    </div>
+                </div>
+            </div> 
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="single-pricing mt-40">
+                        <div class="pricing-header text-center">
+                            <h5 class="sub-title">Basic</h5>
+                            <span class="price">$ 199</span>
+                            <p class="year">per year</p>
+                        </div>
+                        <div class="pricing-list">
+                            <ul>
+                                <li><i class="lni-check-mark-circle"></i> Carefully crafted components</li>
+                                <li><i class="lni-check-mark-circle"></i> Amazing page examples</li>
+                                <li><i class="lni-check-mark-circle"></i> Super friendly support team</li>
+                                <li><i class="lni-check-mark-circle"></i> Awesome Support</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-btn text-center">
+                            <a class="main-btn" href="#">GET STARTED</a>
+                        </div>
+                        <div class="buttom-shape">
+                           
+                        </div>
+                    </div> 
+                </div>
+                
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="single-pricing pro mt-40">
+                        <div class="pricing-baloon">
+                            <img src="assets/images/baloon.svg" alt="baloon"/>
+                        </div>
+                        <div class="pricing-header">
+                            <h5 class="sub-title">Pro</h5>
+                            <span class="price">$ 399</span>
+                            <p class="year">per year</p>
+                        </div>
+                        <div class="pricing-list">
+                            <ul>
+                                <li><i class="lni-check-mark-circle"></i> Carefully crafted components</li>
+                                <li><i class="lni-check-mark-circle"></i> Amazing page examples</li>
+                                <li><i class="lni-check-mark-circle"></i> Super friendly support team</li>
+                                <li><i class="lni-check-mark-circle"></i> Awesome Support</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-btn text-center">
+                            <a class="main-btn" href="#">GET STARTED</a>
+                        </div>
+                        <div class="buttom-shape">
+                           
+                        </div>
+                    </div> 
+                </div>
+                
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="single-pricing enterprise mt-40">
+                        <div class="pricing-flower">
+                            <img src="assets/images/flower.svg" alt="flower"/>
+                        </div>
+                        <div class="pricing-header text-right">
+                            <h5 class="sub-title">Enterprise</h5>
+                            <span class="price">$ 799</span>
+                            <p class="year">per year</p>
+                        </div>
+                        <div class="pricing-list">
+                            <ul>
+                                <li><i class="lni-check-mark-circle"></i> Carefully crafted components</li>
+                                <li><i class="lni-check-mark-circle"></i> Amazing page examples</li>
+                                <li><i class="lni-check-mark-circle"></i> Super friendly support team</li>
+                                <li><i class="lni-check-mark-circle"></i> Awesome Support</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-btn text-center">
+                            <a class="main-btn" href="#">GET STARTED</a>
+                        </div>
+                        <div class="buttom-shape">
+                           
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div> 
+    </section>
+
+    
+
+    <section id="call-to-action" class="call-to-action">
+        <div class="call-action-image">
+            <img src="assets/images/call-to-action.png" alt="call-to-action"/>
+        </div>
+        
+        <div class="container-fluid">
+            <div class="row justify-content-end">
+                <div class="col-lg-6">
+                    <div class="call-action-content text-center">
+                        <h2 class="call-title">Curious to Learn More? Stay Tuned</h2>
+                        <p class="text">You let us know whenever you want us to update anything or think something can be optimised.</p>
+                        <div class="call-newsletter">
+                            <i class="lni-envelope"></i>
+                            <input type="text" placeholder="john@email.com"/>
+                            <button type="submit">SUBSCRIBE</button>
+                        </div>
+                    </div> 
+                </div>
+            </div> 
+        </div> 
+    </section>
+
+  
+
+
+    <section id="contact" class="contact-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-title text-center pb-10">
+                        <h4 class="title">Get In touch</h4>
+                        <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+                    </div> 
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form">
+                        <form id="contact-form" action="assets/contact.php" method="post" data-toggle="validator">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="single-form form-group">
+                                        <input type="text" name="name" placeholder="Your Name" data-error="Name is required." required="required"/>
+                                        <div class="help-block with-errors"></div>
+                                    </div> 
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single-form form-group">
+                                        <input type="email" name="email" placeholder="Your Email" data-error="Valid email is required." required="required"/>
+                                        <div class="help-block with-errors"></div>
+                                    </div> 
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single-form form-group">
+                                        <input type="text" name="subject" placeholder="Subject" data-error="Subject is required." required="required"/>
+                                        <div class="help-block with-errors"></div>
+                                    </div> 
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single-form form-group">
+                                        <input type="text" name="phone" placeholder="Phone" data-error="Phone is required." required="required"/>
+                                        <div class="help-block with-errors"></div>
+                                    </div> 
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="single-form form-group">
+                                        <textarea placeholder="Your Mesaage" name="message" data-error="Please, leave us a message." required="required"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div> 
+                                </div>
+                                <p class="form-message"></p>
+                                <div class="col-md-12">
+                                    <div class="single-form form-group text-center">
+                                        <button type="submit" class="main-btn">send message</button>
+                                    </div> 
+                                </div>
+                            </div> 
+                        </form>
+                    </div> 
+                </div>
+            </div> 
+        </div> 
+    </section>
+
+
+    <footer id="footer" class="footer-area">
+        <div class="footer-widget">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer-logo-support d-md-flex align-items-end justify-content-between">
+                            <div class="footer-logo d-flex align-items-end">
+                                <a class="mt-30" href="index.html"><img src="assets/images/logo.svg" alt="Logo"/></a>
+
+                                <ul class="social mt-30">
+                                    <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
+                                    <li><a href="#"><i class="lni-twitter-original"></i></a></li>
+                                    <li><a href="#"><i class="lni-instagram-original"></i></a></li>
+                                    <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
+                                </ul>
+                            </div> 
+                            
+                        </div> 
+                    </div>
+                </div> 
+                <div class="row">
+                    <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="footer-link">
+                            <h6 class="footer-title">Company</h6>
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Career</a></li>
+
+                            </ul>
+                        </div> 
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="footer-link">
+                            <h6 class="footer-title">Product And Services</h6>
+                            <ul>
+                                <li><a href="#">Products</a></li>
+                                <li><a href="#">Business</a></li>
+                                <li><a href="#">Developer</a></li>
+                            </ul>
+                        </div> 
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-5">
+                        <div class="footer-link">
+                            <h6 class="footer-title">Help & Suuport</h6>
+                            <ul>
+                                <li><a href="#">Support Center</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Terms And Conditions</a></li>
+                            </ul>
+                        </div> 
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-7">
+                        <div class="footer-newsletter">
+                            <h6 class="footer-title">Subscribe Newsletter</h6>
+                            <div class="newsletter">
+                                <form action="#">
+                                    <input type="text" placeholder="Your Email"/>
+                                    <button type="submit"><i class="lni-angle-double-right"></i></button>
+                                </form>
+                            </div>
+                            <p class="text">Subscribe weekly newsletter to stay upto date. We don’t send spam.</p>
+                        </div> 
+                    </div>
+                </div> 
+            </div> 
+        </div> 
+        
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright text-center">
+                            <p class="text">Template Crafted by <a rel="nofollow" href="https://uideck.com">UIdeck</a> - UI Powered by <a el="nofollow" href="https://rebrand.ly/ayroui">AyroUI</a></p>
+                        </div>
+                    </div>
+                </div> 
+            </div> 
+        </div> 
+    </footer>
+
+
+
+
+    <a class="back-to-top" href="#"><i class="lni-chevron-up"></i></a>
+
+    
+
+
+
+
+
+
+
+
+
+
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+
+    
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+
+    
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
+
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+
+    <script src="assets/js/main.js"></script>
+    </div>
+       )
+    }
+}
+export default Home;
